@@ -14,8 +14,7 @@ root.render(
   <BrowserRouter>
   <Switch>
           <Route path="/" exact children={<App />} />
-          <Route path="/:id" exact children={<App />} />
-          
+          <Route path="/:id" exact children={<App />} />      
    </Switch>
 </BrowserRouter>
 );
