@@ -22,6 +22,7 @@ function App() {
    // alert("here"+id)
     if(typeof(id)!='undefined' && id!=null && id!=""){
       //alert("id"+id);
+      document.cookie=id;
       setToken(id);
     }else{
       //alert("here");
